@@ -8,7 +8,7 @@ import (
 )
 
 type Patient struct {
-	ID           uuid.UUID `grom:"column:id;type:uuid;primaryKey"`
+	ID           uuid.UUID `gorm:"column:id;type:uuid;primaryKey"`
 	FirstNameTH  string    `gorm:"column:first_name_th"`
 	MiddleNameTH string    `gorm:"column:middle_name_th"`
 	LastNameTH   string    `gorm:"column:last_name_th"`

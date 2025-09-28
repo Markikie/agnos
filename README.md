@@ -1,10 +1,10 @@
-# Agnos - Hospital A API
+# Agnos Hospital Middleware System
 
-A Go-based API service with nginx reverse proxy and HTTPS support.
+A Go-based middleware system for hospital patient information management, built with Gin framework, PostgreSQL, and Docker.
 
-## Features
+## Overview
 
-- Go web application with Gin framework
+The Agnos Hospital Middleware System provides APIs for hospital staff to search and manage patient information from Hospital Information Systems (HIS). The system supports multiple hospitals and integrates with external hospital APIs to fetch patient data.
 - Nginx reverse proxy with SSL termination
 - Self-signed SSL certificate for HTTPS
 - PostgreSQL database
